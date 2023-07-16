@@ -1,10 +1,8 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - Entry point
  *
- * This is my first C program on Linux
- *
- * return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
