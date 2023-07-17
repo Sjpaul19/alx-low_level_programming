@@ -5,16 +5,19 @@
 /**
  * main - Prints the alphabet without q and e.
  *
+ * q and e are entered in ascii decimal
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int i;
-	char alph[] = "abcdfghijklmnoprstuvwxyz";
 
-	for (i = 0; i < 24; i++)
+	for (i = 97; i < 123; i++)
 	{
-			putchar(alph[i]);
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
 	}
 	putchar('\n');
 	return (0);
