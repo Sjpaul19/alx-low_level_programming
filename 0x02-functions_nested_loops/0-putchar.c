@@ -1,17 +1,23 @@
-#include <stdio.h>
-/*
- * Return - always returns 0 as success
+#include "main.h"
+
+/**
+ * main - Entry point
+ * Return - is always 0 as success
  *
- * main - Entry point of the program
- *
- * main.h is the local directory header
- *
- * This program prints _putchar with a newline following
  */
 
 int main(void)
 {
-	printf("_putchar\n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
+
 
