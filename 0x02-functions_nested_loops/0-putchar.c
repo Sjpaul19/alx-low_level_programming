@@ -5,6 +5,7 @@
  * main - Entry point of the program
  *
  * main.h is the local directory header
+ *
  * This program prints _putchar with a newline following
  */
 
