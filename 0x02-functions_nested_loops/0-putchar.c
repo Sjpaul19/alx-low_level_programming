@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <main.h>
 /*
  * Return - always returns 0 as success
  *
@@ -8,8 +7,7 @@
  * This program prints _putchar with a newline following
  */
 
-int main (void)
-{
+int main(void){
 	printf("_putchar\n");
 	return (0);
 }
