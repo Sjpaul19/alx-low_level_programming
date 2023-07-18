@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /*
  * Return - always returns 0 as success
  *
