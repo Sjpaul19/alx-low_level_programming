@@ -6,11 +6,13 @@
  * Return: 1 for a digit and 0 otherwise
  */
 
-int _isdigit(int c)
+int _isdigit(int x)
+
 {
-	if (c >= 48 && c <= 57)
+
+	if (x >= 48 && x <= 57)
 	{
-		return (1);
+	return (1);
 	}
 	return (0);
 }
