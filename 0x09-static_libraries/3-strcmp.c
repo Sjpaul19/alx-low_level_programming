@@ -4,8 +4,8 @@
 #include <ctype.h>
 #include <string.h>
 
-char *_memset(char *s, char b, unsigned int n)
+int _strcmp(char *s1, char *s2)
 {
-    return memset(s, b, n);
+    return strcmp(s1, s2);
 }
 
